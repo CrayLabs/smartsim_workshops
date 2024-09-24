@@ -14,7 +14,7 @@ const size_t NUM_COLUMNS = 9;
 const size_t BLOCK_SIZE = 16;
 const size_t NUM_ELEMENTS = NUM_COLUMNS*BLOCK_SIZE;
 
-const std::string DS_LIST = "training_data";
+const std::string DS_LIST = "simulation_data";
 std::vector<int> IDS = {19909, 20450, 20966, 21480};
 
 void printLines(const std::vector<std::vector<float>>& data) {
